@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Try Boostrap</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!--Boostrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--FullPage.js-->
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="./css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+    <!--js-->
+    <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="./js/fullPageCall.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu">
+                    <span class="sr-only">Toggle navigation</span> 
+                    Menu
+                    <!-- menu icon --> 
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <!-- left hand side section -->
+                <a class="navbar-brand" href="#firstPage">Disciple Training</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- right hand side section -->
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="nav navbar-nav navbar-right" id="menu">
+                    <li data-menuanchor="firstPage">
+                        <a href="#firstPage">About</a>
+                    </li>
+                    <li data-menuanchor="secondPage">
+                        <a href="#secondPage">Activities</a>
+                    </li>
+                    <li data-menuanchor="thirdPage">
+                        <a href="#thirdPage">Witness</a>
+                    </li>
+                    <li data-menuanchor="fourthPage">
+                        <a href="#fourthPage">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <h1>fullPage.js</h1>
+             <input type="hidden" name="id" value="1" />
+            <p>Create Beautiful Fullscreen Scrolling Websites</p>
+        </div>
+        <div class="section" id="section1">
+<!--             <img src="imgs/catcatt.jpg" alt="test" /> -->
+        </div>
+        <div class="section" id="section2">
+        </div>
+        <div class="section" id="section3">
+        </div>
+    </div>
+
+</body>
+
+</html>
