@@ -5,6 +5,8 @@ $(document).ready(function() {
     menu: '#menu',
     paddingTop: '50px',
     // scrollingSpeed: 1000
-    autoScrolling: false
+    autoScrolling: false,
+    fitToSection: false,
+    paddingTop: $("nav").height()
   });
 });
