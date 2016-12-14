@@ -18,6 +18,10 @@ body{
 	border: 0;
 }
 
+.dt_icon{
+	/*max-width: 45%;*/
+	max-width: 40%;
+}
 /*.navbar {
   background: none;
 }*/
