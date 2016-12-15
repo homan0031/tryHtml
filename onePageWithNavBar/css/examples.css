@@ -46,3 +46,14 @@ body{
 /*.navbar {
   background: none;
 }*/
+
+@media (max-width: 767px) {
+  .about_text h1, .about_text p{
+		text-align: center;
+  }
+}
+
+/*.contact_us_header{
+	position: absolute;
+	top: 10%;
+}*/
