@@ -20,7 +20,16 @@ body{
 
 .dt_icon{
 	/*max-width: 45%;*/
-	max-width: 40%;
+	/*max-width: 40%;*/
+}
+
+.menu_btn{
+
+
+}
+
+.menu_btn_div{
+	margin-top: 1%;
 }
 /*.navbar {
   background: none;
