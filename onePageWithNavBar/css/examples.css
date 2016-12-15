@@ -21,6 +21,9 @@ body{
 .dt_icon{
 	/*max-width: 45%;*/
 	/*max-width: 40%;*/
+/*	width: 40%;*/
+/*	width: 50%;*/
+	max-height: 500px;
 }
 
 .menu_btn{
