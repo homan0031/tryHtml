@@ -46,6 +46,9 @@ body{
 /*.navbar {
   background: none;
 }*/
+.web_icon{
+	width: 40px;
+}
 
 @media (max-width: 767px) {
   .about_text h1, .about_text p{
