@@ -56,6 +56,9 @@ body{
   }
 }
 
+.white-font{
+	color: #FFFFFF;
+}
 /*.contact_us_header{
 	position: absolute;
 	top: 10%;
