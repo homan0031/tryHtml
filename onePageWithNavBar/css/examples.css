@@ -123,3 +123,14 @@ img:hover+span {
 		font-family: 'Lobster', cursive;
 		color: #c5d5cd;
 	}
+	
+	.about_us_img{
+		padding-top:50px;
+		}
+		
+@media (max-width: 540px) {
+  .about_us_img{
+		padding-top:0px;
+		}
+}
+		
