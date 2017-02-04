@@ -1,34 +1,10 @@
-/*#menu{
-	position:fixed;
-	top:0;
-	left:0;
-	height: 40px;
-	z-index: 1;
-	width: 100%;
-	padding: 0;
-	margin:0;
-}*/
-
-/*.navbar{
-	background-color: hsla(0, 100%, 50%, 0.3);
-}*/
-
 body{
 	padding: 0;
 	border: 0;
 }
 
 .dt_icon{
-	/*max-width: 45%;*/
-	/*max-width: 40%;*/
-/*	width: 40%;*/
-/*	width: 50%;*/
 	max-height: 500px;
-}
-
-.menu_btn{
-
-
 }
 
 .menu_btn_div{
@@ -43,9 +19,7 @@ body{
 .about_text h1, .about_text p{
 	color: #FFFFFF;
 }
-/*.navbar {
-  background: none;
-}*/
+
 .web_icon{
 	width: 40px;
 }
@@ -59,11 +33,6 @@ body{
 .white-font{
 	color: #FFFFFF;
 }
-/*.contact_us_header{
-	position: absolute;
-	top: 10%;
-}*/
-
 
 /*-------------------------*/
 /* Blur + Gray Scale */

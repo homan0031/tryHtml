@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="utf-8"> -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +13,6 @@
 	
 		<!--Font-->
 		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Lobster|Londrina+Sketch|Coda" rel="stylesheet">
-
 		<!--fontawesome-->
 		<link rel="stylesheet" href="./css/font-awesome.min.css">
 
@@ -28,12 +26,16 @@
 
     <!--FullPage.js-->
     <!--css-->
-    <link rel="stylesheet" type="text/css" href="./css/examples.css" />
     <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
     <!--js-->
     <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="./js/fullPageCall.js"></script>
-    <script type="text/javascript" src="./js/boostrapFun.js"></script>
+
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+    <!--custom js-->
+    <script type="text/javascript" src="./js/fullPageJsCaller.js"></script>
+    <script type="text/javascript" src="./js/styleControl.js"></script>
 </head>
 
 <body>
@@ -69,9 +71,6 @@
                     <li data-menuanchor="fourthPage">
                         <a href="#fourthPage">過往活動</a>
                     </li>
-<!--                     <li data-menuanchor="">
-                        <a href="#fifthPage">Contact</a>
-                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -80,41 +79,23 @@
     </nav>
 
     <div id="fullpage">
+<!--     	Section 0 -->
         <div class="section " id="section0">
         	<div class="container-fluid ">
-<!--         		<div class="row">
-        			<div class="col-xs-12"> -->
-	        			<img class="img-responsive center-block dt_icon" src="imgs/dt_icon.png" alt="test" />
-<!-- 	        		</div>
-	        	</div>
- -->
+      			<img class="img-responsive center-block dt_icon" src="imgs/dt_icon.png" alt="test" />
 
  	        	<div class="row menu_btn_div">
 	        		<div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-3">
-	        			<a href="#secondPage" class="btn btn-block btn-info menu_btn menubar"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp 註冊</a>
+	        			<a href="#secondPage" class="btn btn-block btn-info menubar"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp 註冊</a>
 	        		</div>
 	        		
  	        		<div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-0">
-	        			<a href="#secondPage" class="btn btn-block btn-success menu_btn menubar"><span class="glyphicon glyphicon-user"></span>&nbsp 登入</a>
+	        			<a href="#secondPage" class="btn btn-block btn-success menubar"><span class="glyphicon glyphicon-user"></span>&nbsp 登入</a>
 	        		</div>
-<!-- 	        		<div class="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-2">
-	        			<a href="#secondPage" class="btn btn-block btn-primary menu_btn menubar"><span class="glyphicon glyphicon-info-sign"></span>&nbsp About Us</a>
-	        		</div>
-	        		<div class="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-0">
-	        			<a href="#thirdPage" class="btn btn-block btn-success menu_btn menubar"><span class="glyphicon glyphicon-calendar"></span>&nbsp Activities</a>
-	        		</div>
-	        		<div class="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-0">
-	        			<a href="#fourthPage" class="btn btn-block btn-info menu_btn menubar"><span class="glyphicon glyphicon-pencil"></span>&nbsp Witness</a>
-	        		</div>
-	        		<div class="col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-0">
-	        			<a href="#fifthPage" class="btn btn-block btn-info menu_btn menubar"><span class="glyphicon glyphicon-envelope"></span>&nbsp Contact Us</a>
-	        		</div> -->
-	        	</div> 
-<!--             <h1>fullPage.js</h1>
-             <input type="hidden" name="id" value="1" />
-            <p>Create Beautiful Fullscreen Scrolling Websites</p> -->
         </div>
         </div>
+
+<!--         Section 1 -->
         <div class="section" id="section1">
             <div class="container-fluid">
             	<div class="row">
@@ -132,10 +113,10 @@
                     <img class="img-responsive about_us_img hidden-xs" src="imgs/img_1.png" alt="test" />
                     </div>
             	</div>
-<!--             <img src="imgs/catcatt.jpg" alt="test" /> -->
             </div>
         </div>
 
+<!--         Section 2 -->
 				<div class="section" id="section2">
             <div class="container-fluid">
                 <div class="row">
@@ -144,6 +125,7 @@
             </div>
         </div>
 
+<!--         Section 3 -->
         <div class="section" id="section3">
             <div class="container-fluid">
             	<div class="row">
@@ -184,6 +166,7 @@
             </div>
         </div>
 
+<!--         Section 4 -->
         <div class="section" id="section4">
             <div class="container-fluid">
                 <div class="row">
@@ -192,19 +175,6 @@
                     </div>
                 </div>
                 <div class="row context">
-<!--                     <div class="col-md-5">
-                        <div class="row">
-                          <div class="col-xs-5 col-xs-offset-0 col-md-4 col-md-offset-1">
-                            <p><span class="glyphicon glyphicon-earphone"></span>&nbsp Pesron A:6523 3236</p>
-                          </div>
-                        </div>
-                        <div class="row">
-                            <p><span class="glyphicon glyphicon-earphone"></span>&nbsp Pesron B:6523 3236</p>
-                        </div>
-                        <div class="row">
-                            <p><span class="glyphicon glyphicon-envelope"></span>&nbsp Email:dt2016@dt.com</p>
-                        </div>
-                    </div> -->
                     <div class="col-md-6 col-md-offset-3">
                         <form>
                           <div class="form-group">
